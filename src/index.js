@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import {AppSuperHero} from './container/AppSuperHero';
+
+// Estilos 
+import './style/Main.css'
 
 ReactDOM.render(
-    <App />,
+    <AppSuperHero />,
   document.getElementById('root')
 );
