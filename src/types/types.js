@@ -1,3 +1,3 @@
 export const typesHero = {
-    register: 'register'
+    almacenarHeroe: 'ALMACENAR_HEROE'
 }

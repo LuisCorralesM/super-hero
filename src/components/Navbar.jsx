@@ -16,7 +16,7 @@ export const Navbar = () => {
             <header>
                 <nav id="site-nav" className="site-nav">
                     <ul>
-                        <a href="#" className="scroll">
+                        <a href="/" className="scroll">
                             <li className="list-item-nav titulos-principales">Super Hero</li>
                         </a>
                     </ul>

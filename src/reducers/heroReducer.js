@@ -2,23 +2,11 @@ import {
     typesHero
 } from "../types/types";
 
-const initialState = {
-    Heros: {}
-}
-
-export const heroReducer = (state = initialState, action) => {
+export const heroReducer = (state = {}, action) => {
     switch (action.type) {
-        case typesHero.register:
+        case typesHero.almacenarHeroe:
             return {
-                Heros: {
-                    nombre: action.payload.name,
-                    poderes: action.payload.powerstats,
-                    biografia: action.payload.biography,
-                    apariencia: action.payload.appearance,
-                    trabajo: action.payload.work,
-                    conexion: action.payload.connections,
-                    imagen: action.payload.image
-                }
+                heroes:action.payload              
             }
         default:
             return state;
