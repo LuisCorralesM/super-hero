@@ -2,6 +2,7 @@ import React from 'react'
 import '../style/Navbar.css'
 
     // Menu hamburguesa
+    // Metodo por el cual quitamos o penemos una clase al botón hamburguesa, con el fin de animar el botón
     const cambiarClase = () => {
         let siteNav = document.getElementById('site-nav');
         siteNav.classList.toggle('site-nav-open');
@@ -11,6 +12,7 @@ import '../style/Navbar.css'
 
 export const Navbar = () => {
     return(
+        // Por medio de las clases y los @media detectamos el ancho de pantalla y definimos el responsive
         <div className="contedor-nav-bar">
             <div id="animacion" className="animacion"></div>
             <header>
