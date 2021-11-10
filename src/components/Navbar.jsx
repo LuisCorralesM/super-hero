@@ -17,7 +17,7 @@ export const Navbar = () => {
                 <nav id="site-nav" className="site-nav">
                     <ul>
                         <a href="/" className="scroll">
-                            <li className="list-item-nav titulos-principales">Super Hero</li>
+                            <li className="list-item-nav">Super Hero</li>
                         </a>
                     </ul>
                 </nav>

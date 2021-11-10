@@ -12,11 +12,10 @@
     position: relative;
     z-index: 3000;
     font-weight: 900;
-    height: 100px;
+    height: 40px;
 }
 
 header {
-    padding: 5px 0;
     position: relative;
     height: auto;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.733) 0%, rgba(34, 12, 54, 0.63) 35%, rgba(5, 83, 79, 0.541) 100%);
@@ -53,8 +52,9 @@ header::after {
 
 .list-item-nav{
     cursor: pointer;
-    height: 60px;
-    line-height: 60px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
 }
 
 .list-item-nav:hover{
@@ -152,7 +152,6 @@ header::after {
     .site-nav a:focus {
         background: transparent;
     }
-
 }
 
 @media (max-width:700px) {
@@ -178,7 +177,7 @@ header::after {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .site-nav ul{

@@ -2,12 +2,11 @@ import {typesHero } from "../types/types"
 import axios from 'axios';
 
 
-export const guardarAsincrono =  () => {
+export const guardarAsincrono =  (BUSQUEDA) => {
     return async(dispatch) => {
         
         const API = 'https://www.superheroapi.com/api.php'
         const CLAVE_API = '4619606654769918'
-        const BUSQUEDA = 'Batman'
         const apiHero = `${API}/${CLAVE_API}/search/${BUSQUEDA}`;
 
             try {
