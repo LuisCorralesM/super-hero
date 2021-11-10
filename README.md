@@ -17,4 +17,4 @@
 
 # Despliegue
 
-[link]: https://upbeat-sammet-7025a3.netlify.app/
+https://upbeat-sammet-7025a3.netlify.app/
